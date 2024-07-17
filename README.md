@@ -6,6 +6,12 @@ You're expected to add support for what's mentioned below. Security and interope
 - Integrate a 1% transaction fee mechanism into the contract. This is to be deducted on each transfer and should be transferred to an address responsible for holding fees
 
 
+## Deployment Instruction 
+
+# note: this is based on my prefered testnet
+
+- npx hardhat run scripts/deploy.js --network sepolia
+- npx hardhat verify --network sepolia DEPLOYED_CONTRACT_ADDRESS
 
 
 
